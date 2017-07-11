@@ -205,8 +205,15 @@ a .button:hover {
     align-items: unset;
 }
 
+.img-wrapper img {
+    height: 220px;
+}
+
+.img-wpapper {
+    width: 100%;
+}
+
 .course-anons {
-    min-height: 220px;
     align-items: unset;
 }
 
