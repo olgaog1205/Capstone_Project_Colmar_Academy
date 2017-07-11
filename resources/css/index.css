@@ -206,15 +206,16 @@ a .button:hover {
 }
 
 .img-wrapper img {
-    height: 220px;
+    height: 180px;
 }
 
-.img-wpapper {
+.img-wrapper {
     width: 100%;
 }
 
 .course-anons {
     align-items: unset;
+
 }
 
 .course-name {
