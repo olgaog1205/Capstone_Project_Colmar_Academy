@@ -203,10 +203,12 @@ a .button:hover {
     padding-bottom: 24px;
     margin: 16px 32px 16px 16px;
     align-items: unset;
+    width: 28%;
 }
 
 .img-wrapper img {
-    height: 180px;
+
+    width: 100%;
 }
 
 .img-wrapper {
@@ -215,6 +217,7 @@ a .button:hover {
 
 .course-anons {
     align-items: unset;
+
 
 }
 
