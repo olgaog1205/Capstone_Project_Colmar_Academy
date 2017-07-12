@@ -16,18 +16,18 @@ html, body {
 }
 
 h2 {
-font-size: 45px;
-font-weight: 700;
+    font-size: 45px;
+    font-weight: 700;
 }
 
 h3 {
-font-size: 25px;
-font-weight: 600;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 a {
-text-decoration: none;
-color: #4a96ad;
+    text-decoration: none;
+    color: #4a96ad;
 }
 
 a:hover{
@@ -36,11 +36,6 @@ a:hover{
     border-radius: 0px;
     transition: all 1s ease 0s;
 }
-
-a img:hover{
-    opacity: 0.5;
-}
-
 
 /* colors*/
  .bg-dark {
@@ -202,22 +197,26 @@ a .button:hover {
 .course-lg {
     padding-bottom: 24px;
     margin: 16px 32px 16px 16px;
-    align-items: unset;
+    display: flex;
+    flex-flow: column;
     width: 28%;
+    align-items: unset;
 }
 
 .img-wrapper img {
-
     width: 100%;
 }
 
 .img-wrapper {
-    width: 100%;
+    flex: 2 0.5;
+    overflow: auto;
 }
 
 .course-anons {
     align-items: unset;
-
+    display: flex;
+    flex-flow: column;
+    height: 220px;
 
 }
 
@@ -231,6 +230,7 @@ a .button:hover {
 .course-content {
     line-height: 1.6rem;
     padding-left: 16px;
+
 }
 
 /*thesis section */
@@ -388,13 +388,23 @@ h3 {
 
 /* ----------------------------------*/
 /* big screen */
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 769px) {
 
 .nav-small,
 .info-img-sm,
 .courses-wrapper-sm,
 .video-sm {
      display: none;
+}
+
+}
+
+/*correction for 1024 screen */
+
+@media screen and (min-width: 769px) and (max-width: 1024px)  {
+
+.course-lg {
+width: 35%;
 }
 
 }
