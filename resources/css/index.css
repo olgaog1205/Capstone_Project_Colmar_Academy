@@ -138,7 +138,7 @@ a .button:hover {
     margin-top: 32px;
 }
 
-.cite {
+blockquote {
     margin-top: 24px;
     margin-bottom: 36px;
     font-style: italic;
@@ -382,31 +382,25 @@ h3 {
     padding-bottom: 24px;
     margin-top: 32px;
 }
-
 }
-
 
 /* ----------------------------------*/
 /* big screen */
 @media only screen and (min-width: 769px) {
-
 .nav-small,
 .info-img-sm,
 .courses-wrapper-sm,
 .video-sm {
      display: none;
 }
-
 }
 
 /*correction for 1024 screen */
 
 @media screen and (min-width: 769px) and (max-width: 1024px)  {
-
 .course-lg {
-width: 37%;
+    width: 37%;
 }
-
 }
 
 
